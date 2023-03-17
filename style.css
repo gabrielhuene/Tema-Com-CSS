@@ -1,14 +1,43 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body { 
+    background-image: url("https://img.freepik.com/fotos-gratis/praticando-experiencia-de-futebol-focada-tecnico_1134-987.jpg?w=1380&t=st=1679009851~exp=1679010451~hmac=b500f34130812e60226ec320aeafd579565967b95844ad04217d7689a2312a85");
+    background-size: cover ;
 }
 
 main#container {
+    background-color: rgba(224, 222, 222, 0.5);
+    border-color: black;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 0 ;
+    border-bottom: 0px;
+
+
+
 }
 
 h1.titulo {
+
+    font-family: 'Xanh Mono', monospace;
+
+
 }
 
+
+
 p.frase {
+
+
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
 }
 
 p.autor {
+
+
+    font-family: 'Charm', cursive;
+    font-size: 30px;
 }
